@@ -43,8 +43,8 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-    testImplementation("org.mockito:mockito-core:5.2.1")
-    testImplementation("org.mockito.kotlin:mockito-kotlin:5.2.1")
+    testImplementation(libs.mockito.core)
+    testImplementation(libs.mockito.kotlin)
 
     // For HTTP client
     implementation(libs.retrofit)
