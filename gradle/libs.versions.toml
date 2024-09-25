@@ -1,4 +1,6 @@
 [versions]
+mockitoCore = "5.7.0"
+mockitoKotlin = "5.2.1"
 versionName = "1.0.0"
 versionCode = "1"
 
@@ -58,6 +60,8 @@ material = { group = "com.google.android.material", name = "material", version.r
 material3 = { module = "androidx.compose.material3:material3", version.ref = "material3" }
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converterGson" }
+mockito-core = { module = "org.mockito:mockito-core", version.ref = "mockitoCore" }
+mockito-kotlin = { module = "org.mockito.kotlin:mockito-kotlin", version.ref = "mockitoKotlin" }
 retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
 hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hiltVersion" }
 hilt-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hiltVersion" }
